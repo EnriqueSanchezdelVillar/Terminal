@@ -7,8 +7,12 @@ change directory = cd Name
   to see a ling list = ls -l  
   both = ls -la  
   . current directory .. upone level   
-  
+    
   make a file = touch Name1 (of the file)  
+  open file == open *name of the file*  
+  copi a file == cp *name of the file we wanna copie* and*name of the new copie*  
+  man cp you see all of the options  
+  moved a file == mv *name of the file* and *the folder you want it to put it*  
   cd ~/Namerepository  
   remove = rm     
  cd ~ = home folder or just cd   

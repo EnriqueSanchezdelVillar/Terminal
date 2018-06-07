@@ -12,6 +12,7 @@ change directory = cd Name
   open file == open *name of the file*  
   copi a file == cp *name of the file we wanna copie* and*name of the new copie*  
   man cp you see all of the options  
+  min *command*= look fr the utilities  
   moved a file == mv *name of the file* and *the folder you want it to put it*  
   cd ~/Namerepository  
   remove = rm     
@@ -23,6 +24,18 @@ change directory = cd Name
   come back to the one before = popd  
   to see what is in a file =  file .Name  
    find a file = located name  
+   find . -type d == find for directories no files in my directory
+   """          f === all the files  
+   all the files thaat have been modified in the last 10 mins == find . -type f -mmin -10 or +10 more that 10..  
+   intervalo de tiempo  find . -type f -mmin +10 -mmin -10 
+   dias== mtime  
+   looking for size  
+    find . -size  - or + 5M
+    find . -empty 
+    
+  Permission
+       find . -perm 777
+   
   look for commands = wich nameComand   
   
 ## Sudo  

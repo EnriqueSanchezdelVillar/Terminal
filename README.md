@@ -52,3 +52,9 @@ where r read
       w write  
       x expeded  
 
+# Look for a sentence in a txt file.  
+grep "sentence" file.txt  
+grep -w "sentence" file.txt--> only if the sentence is exacly 
+-wi lower version of the sentence   
+grep "..." any character  
+
